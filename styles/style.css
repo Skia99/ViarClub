@@ -1,2 +1,73 @@
 @import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
-@import "./fonts.css";/*# sourceMappingURL=style.css.map */
+@import "./fonts.css";
+body {
+  background-image: url(../assets/img/bg1-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  background-color: #101315;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  margin-top: 48px;
+}
+.header .logo-link {
+  margin-right: 122px;
+}
+.header .nav {
+  margin-right: auto;
+}
+.header .btn-outline {
+  margin-right: 24px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.btn-outline {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  /* identical to box height, or 24px */
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+  padding: 8px 20px;
+  color: #ffffff;
+}
+
+.tel-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  /* or 24px */
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
