@@ -70,4 +70,71 @@ a {
   line-height: 160%;
   /* or 24px */
   color: #ffffff;
+}
+
+.promo__menu {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-bottom: 175px;
+}
+.promo .container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 118%;
+  /* or 57px */
+  text-transform: uppercase;
+  max-width: 489px;
+  margin-top: 186px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.text {
+  max-width: 464px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.pink-btn {
+  padding: 12px 27px;
+  background: #e32966;
+  box-shadow: 0px 9px 26px rgba(227, 41, 102, 0.3);
+  border-radius: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  /* identical to box height, or 24px */
+  color: #ffffff;
+}
+
+.pink-btn-outline {
+  padding: 12px 35px;
+  border: 1.5px solid #e32966;
+  border-radius: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  /* identical to box height, or 24px */
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 31px;
 }/*# sourceMappingURL=style.css.map */
