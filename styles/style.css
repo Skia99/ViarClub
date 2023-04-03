@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
 @import "./fonts.css";
 body {
@@ -72,6 +73,10 @@ a {
   color: #ffffff;
 }
 
+section:not(:first-child) {
+  margin-top: 96px;
+}
+
 .promo__menu {
   display: flex;
   align-items: center;
@@ -137,4 +142,214 @@ a {
   display: flex;
   align-items: center;
   gap: 31px;
+  margin-bottom: 66px;
+}
+.about .container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subheading {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 118%;
+  /* or 47px */
+  color: #ffffff;
+  margin-bottom: 62px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content img {
+  max-width: 948px;
+  margin-bottom: 16px;
+}
+
+.about__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+
+.text-content__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 118%;
+  color: #ffffff;
+  max-width: 268px;
+}
+
+.gamehalls .container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gamehalls__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gamehalls__list img {
+  z-index: 1;
+}
+
+.gamehalls__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 391px;
+  background: radial-gradient(72.18% 43.92% at 50% 93.92%, #a40a79 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(37.71% 30.53% at 4.78% 4.31%, #008df3 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(51.22% 43.71% at 98.22% 1.22%, #dc18c8 0%, rgba(0, 0, 0, 0) 100%), rgba(22, 43, 237, 0.5);
+  opacity: 0.5;
+  padding-bottom: 40px;
+  z-index: 0;
+}
+
+.card-bottomside {
+  max-width: 391px;
+}
+
+.card-bottomside .pink-btn {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.gamehalls__heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 118%;
+  color: #ffffff;
+  text-align: center;
+  padding: 26px 133px 0 132px;
+}
+
+.gamehalls__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 118%;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 36px 20px 36px;
+}
+
+.gallery .container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  margin-bottom: 66px;
+}
+
+.footer-top .footer__map {
+  max-width: 1045px;
+  position: relative;
+}
+
+.geo-mark {
+  position: absolute;
+  right: 315px;
+}
+
+.footer__map-logo {
+  position: absolute;
+  right: 315px;
+}
+
+.footer-top .socials {
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.contacts-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contacts-column .subheading {
+  margin-bottom: 40px;
+}
+
+.footer_subheading {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 118%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 118%;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  max-width: 272px;
+  color: #ffffff;
+}
+
+.tel-link {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contacts-column .tel-link {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.footer-bottom {
+  background: radial-gradient(72.18% 43.92% at 50% 93.92%, #a40a79 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(37.71% 30.53% at 4.78% 4.31%, #008df3 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(51.22% 43.71% at 98.22% 1.22%, #dc18c8 0%, rgba(0, 0, 0, 0) 100%), rgba(22, 43, 237, 0.5);
+  opacity: 0.5;
+  /* Тень */
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  padding-top: 38px;
+  padding-bottom: 37px;
+}
+
+.footer-bottom .container {
+  justify-content: space-between;
+}
+
+.footer-bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-bottom-info__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: end;
+  color: #c7c7c7;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
